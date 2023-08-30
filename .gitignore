@@ -1,5 +1,5 @@
 dash-automation-key.json
-__pycache__
+__pycache__/
 *.py[cod]
 my-config.json
 

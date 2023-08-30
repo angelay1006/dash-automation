@@ -296,10 +296,10 @@ class Instagram:
         return reordered_list
 
 
-test = Instagram(get_social_data.get_ig_access_token())
-test_basic_data = test.get_basic_data(ig_user_id,'08/04/2023','08/14/2023')
+# test = Instagram(get_social_data.get_ig_access_token())
+# test_basic_data = test.get_basic_data(ig_user_id,'08/04/2023','08/14/2023')
 # print(test.get_reels(ig_user_id,'08/18/2023','08/24/2023', test_data))
 # print(test_data)
 # entry = {'Date': '08/04/2023', 'Content': 'Memory, Meaning & The Benefits of Overlearning 🧠At the VUS TESOL Conference in Vietnam, ou...', 'Content Type': 'CAROUSEL_ALBUM', 'Platform': 'IG', 'Boosted': 'FALSE', 'Reactions': 13, 'Comments': 0, 'Post ID': '18006734743892699'}
 # print(test.handle_album(entry))
-print(test.get_combined_data('08/04/2023', '08/14/2023')) # format: [{1:2}, {3:4}, {5:6}]
+# print(test.get_combined_data('08/04/2023', '08/14/2023')) # format: [{1:2}, {3:4}, {5:6}]

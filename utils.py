@@ -34,3 +34,26 @@ def clean_post_content(content):
     cleaned_content = content.replace('\n', '')
     truncated_content = cleaned_content[:90] + '...' if len(cleaned_content) > 90 else cleaned_content
     return truncated_content
+
+def is_valid_start_date(start_str):
+    date_format = "%m/%d/%Y"
+    try:
+        datetime.strptime(start_str, date_format).date()
+        return True, None
+    except ValueError:
+        return False,  "Invalid end date format. Please enter a valid MM/DD/YYYY."
+    
+def is_valid_end_date(end_date_str):
+    date_format = "%m/%d/%Y"
+
+    try:
+        end_date_obj = datetime.strptime(end_date_str, date_format).date()
+        current_date = datetime.now().date()
+
+        # Check if the end_date is in the future
+        if end_date_obj >= current_date:
+            return False, "End date can't be in the future."
+        else:
+            return True, None  # Valid end date
+    except ValueError:
+        return False, "Invalid end date format. Please enter a valid MM/DD/YYYY."

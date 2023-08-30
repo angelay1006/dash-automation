@@ -60,4 +60,4 @@ def upload_all_data(start_date, end_date, to_upload='all'):
         print('Instagram data uploaded to Google Sheets.')
 
     
-upload_all_data('08/22/2023', '08/30/2023', 'all')
+# upload_all_data('08/22/2023', '08/30/2023', 'all')
