@@ -2,7 +2,7 @@
     "meta_api": {
       "client_id": "YOUR_CLIENT_ID", 
       "client_secret": "YOUR_CLIENT_SECRET",
-      "temp_access_token": "YOUR_TEMPORARY_ACCESS_TOKN",
+      "temp_access_token": "YOUR_TEMPORARY_ACCESS_TOKEN",
       "long_lived_user_access_token": "YOUR_LONG_LIVED_USER_ACCESS_TOKEN",
       "facebook_page_id": "YOUR_FACEBOOK_PAGE_ID"
     },
@@ -10,5 +10,5 @@
       "json_keyfile_path": "PATH_TO_YOUR_JSON_KEYFILE",
       "spreadsheet_name": "NAME_OF_YOUR_SPREADSHEET_FILE",
       "sheet_name": "NAME_OF_YOUR_INDIVIDUAL_SHEET"
-    }
+    } 
 }

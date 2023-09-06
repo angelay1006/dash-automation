@@ -25,10 +25,6 @@ page_token = token_tuple[1][0]['access_token']
 access_token = config['meta_api']['temp_access_token']
 fb_page_id = config['meta_api']['facebook_page_id']
 
-# You can get the spreadsheet ID from the URL, it's a long string of letters and numbers after '/d/' and before '/edit'
-# the below is for `dash automation test` file!
-content_sheet_id = config['google_api']['sheet_id']
-
 # content_values = content_sheet.get_all_values()
 
 def get_body(data):
